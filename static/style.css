@@ -1,0 +1,27 @@
+.line1{
+    color: white;
+    font-family: SansSerif;
+    text-align: center;
+}
+*{
+background-color:#ece1be;
+}
+.par1{
+    font-family: SansSerif;
+    color: white;
+    text-align: center;
+}
+.par2{
+    text-align: center;
+}
+.home{
+    text-align: center;
+}
+.logout{
+    text-align: center;
+}
+.login{
+    text-align: center;
+}
+
+

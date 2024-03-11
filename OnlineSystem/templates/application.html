@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block heading %}
+<form action="">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" name="submit" class="btn btn-success">Submit</button>
+</form>
+{% endblock %}

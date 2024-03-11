@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block heading %}
+<div class="home">
+<h1 class="par1">Online Examination System</h1>
+<h3 class="par2">Attend your examinations online</h3>
+    <form action="" method="POST">
+        {%csrf_token %}
+        {{form.as_p}}
+        <button class="btn btn-success">SUBMIT</button>
+    </form>
+<h5 class="line1">
+Sign up to start your first online examination <br>
+    start Your journey here </h5><br>
+    <div class="index">
+        <button class="btn btn-info">sign up as a student</button>
+        </div>
+</div>
+
+
+{% endblock %}
